@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+java-login-app,com.example.login.servlet,LogoutServlet,15,0,2,0,6,0,3,0,2,0
+java-login-app,com.example.login.servlet,LoginServlet,0,55,0,2,0,17,0,5,0,4
+java-login-app,com.example.login.dao,UserDAO,0,53,1,7,0,10,1,7,0,4
+java-login-app,com.example.login.model,User,11,15,0,0,6,6,3,3,3,3

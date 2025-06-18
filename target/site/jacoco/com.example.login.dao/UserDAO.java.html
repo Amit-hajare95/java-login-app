@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>UserDAO.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">java-login-app</a> &gt; <a href="index.source.html" class="el_package">com.example.login.dao</a> &gt; <span class="el_source">UserDAO.java</span></div><h1>UserDAO.java</h1><pre class="source lang-java linenums">package com.example.login.dao;
+
+import com.example.login.model.User;
+import java.util.HashMap;
+import java.util.Map;
+
+<span class="fc" id="L7">public class UserDAO {</span>
+<span class="fc" id="L8">    private static final Map&lt;String, User&gt; userDatabase = new HashMap&lt;&gt;();</span>
+    
+    static {
+        // Pre-populate with some test users
+<span class="fc" id="L12">        userDatabase.put(&quot;admin&quot;, new User(&quot;admin&quot;, &quot;admin123&quot;));</span>
+<span class="fc" id="L13">        userDatabase.put(&quot;user&quot;, new User(&quot;user&quot;, &quot;user123&quot;));</span>
+<span class="fc" id="L14">    }</span>
+    
+    public boolean validate(String username, String password) {
+<span class="pc bpc" id="L17" title="1 of 4 branches missed.">        if (username == null || password == null) {</span>
+<span class="fc" id="L18">            return false;</span>
+        }
+        
+<span class="fc" id="L21">        User user = userDatabase.get(username);</span>
+<span class="fc bfc" id="L22" title="All 4 branches covered.">        return user != null &amp;&amp; password.equals(user.getPassword());</span>
+    }
+    
+    public User getUser(String username) {
+<span class="fc" id="L26">        return userDatabase.get(username);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

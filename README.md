@@ -75,4 +75,3 @@ The application comes with two pre-configured users:
 ## License
 
 This project is open source and available under the MIT License.
-# java-login-app
