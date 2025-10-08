@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.login.dao.UserDAOTest" time="0.128" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.login.dao.UserDAOTest" time="0.132" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/kesari/project/java-project/java-login-app/target/surefire/surefirebooter-20251008131158263_3.jar /home/kesari/project/java-project/java-login-app/target/surefire 2025-10-08T13-11-58_167-jvmRun1 surefire-20251008131158263_1tmp surefire_0-20251008131158263_2tmp"/>
+    <property name="sun.java.command" value="/home/kesari/project/java-project/java-login-app/target/surefire/surefirebooter-20251008132011420_3.jar /home/kesari/project/java-project/java-login-app/target/surefire 2025-10-08T13-20-11_339-jvmRun1 surefire-20251008132011420_1tmp surefire_0-20251008132011420_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/kesari/project/java-project/java-login-app/target/test-classes:/home/kesari/project/java-project/java-login-app/target/classes:/home/kesari/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/kesari/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:/home/kesari/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/kesari/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/kesari/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/kesari/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/kesari/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/kesari/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/kesari/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/home/kesari/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/home/kesari/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/home/kesari/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/kesari/project/java-project/java-login-app/target/surefire/surefirebooter-20251008131158263_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/kesari/project/java-project/java-login-app/target/surefire/surefirebooter-20251008132011420_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8-Ubuntu-0ubuntu122.04.1"/>
     <property name="user.name" value="kesari"/>
@@ -52,7 +52,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testGetUser" classname="com.example.login.dao.UserDAOTest" time="0.072"/>
+  <testcase name="testGetUser" classname="com.example.login.dao.UserDAOTest" time="0.079"/>
   <testcase name="testValidateWithInvalidCredentials" classname="com.example.login.dao.UserDAOTest" time="0.003"/>
-  <testcase name="testValidateWithValidCredentials" classname="com.example.login.dao.UserDAOTest" time="0.003"/>
+  <testcase name="testValidateWithValidCredentials" classname="com.example.login.dao.UserDAOTest" time="0.002"/>
 </testsuite>
