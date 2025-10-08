@@ -1,4 +1,4 @@
-/home/kesari/java-login-app/src/main/java/com/example/login/dao/UserDAO.java
-/home/kesari/java-login-app/src/main/java/com/example/login/servlet/LoginServlet.java
-/home/kesari/java-login-app/src/main/java/com/example/login/servlet/LogoutServlet.java
-/home/kesari/java-login-app/src/main/java/com/example/login/model/User.java
+/home/kesari/project/java-project/java-login-app/src/main/java/com/example/login/model/User.java
+/home/kesari/project/java-project/java-login-app/src/main/java/com/example/login/servlet/LogoutServlet.java
+/home/kesari/project/java-project/java-login-app/src/main/java/com/example/login/dao/UserDAO.java
+/home/kesari/project/java-project/java-login-app/src/main/java/com/example/login/servlet/LoginServlet.java
